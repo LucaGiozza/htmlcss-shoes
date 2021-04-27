@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 .menu{
-    width: 250px;
+    width: 350px;
     height: 30px;
     ;
     position: absolute;
     right: 90px;
     top: 20px;
+    position: fixed;
+    z-index: 1;
 }
 .alto{
   display: inline-block;
@@ -20,23 +22,40 @@
     
     display: inline-block;
   margin-left: 50px ;
-  z-index: 1;
+  
   padding: 15px;
   background-color: white;
   border-radius:80% ;
-  width: 25px;
-  height: 25px;
-  
-  /* width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  font-size: 30px;
-  
-  line-height: 30px;
+  width: 45px;
+  height: 45px;
   text-align: center;
-  background:white; */
-
+  text-decoration: none;
 }
+.alto-centro{
+    display: inline-block;
+    margin-left: 50px ;
+    
+    padding: 15px;
+    background-color: white;
+    border-radius:80% ;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;  
+}
+.alto-destra{
+    display: inline-block;
+    margin-left: 50px ;
+    
+    padding: 15px;
+    background-color: white;
+    border-radius:80% ;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;   
+}
+
 
 .red{
     height: 100vh;
