@@ -3,10 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* inizio menu */
 .menu{
     width: 350px;
     height: 30px;
-    ;
+    
     position: absolute;
     right: 90px;
     top: 20px;
@@ -56,7 +57,7 @@
     text-decoration: none;   
 }
 
-
+/* inizio prima schermata */
 .red{
     height: 100vh;
     width: 100%;
@@ -83,6 +84,15 @@
    color: yellow;
    text-shadow: 1px 1px black;
 }
+.layover{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.red:hover .layover{
+    background-color: transparent;
+}
+/* inizio seconda schermata */
 .green{
     height: 100vh;
     width: 100%;
@@ -95,17 +105,24 @@
    left: 50%;
    transform: translate(-50%, -50%);
 }
+.green:hover .layover{
+    background-color: transparent;
+}
 .yellow img{
     position: absolute; 
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
 }
+/* inizio terza schermata */
 .yellow{
     height: 100vh;
     width: 100%;
     background-color:yellow;
     position: relative; 
+}
+.yellow:hover .layover{
+    background-color: transparent;
 }
 .descrizione-verde{
       
